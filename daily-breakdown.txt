@@ -1,0 +1,63 @@
+### ✅ **Day 1: File Renamer Script**
+- Create CLI script to rename files with prefix/suffix/timestamp.
+- Learn `pathlib`, `os`, `datetime`.
+- **Checkpoint:** Dry-run logic + full rename with rollback option.
+
+### ✅ **Day 2: Email Automation with Gmail**
+- Use `smtplib`, `email.message`, `dotenv`.
+- Send personalized emails using a CSV contact list.
+- **Checkpoint:** Successfully send 5 test emails using template.
+
+### ✅ **Day 3: Web Scraper**
+- Scrape job listings from mock/real portal (or use `quotes.toscrape.com`).
+- Learn `requests`, `BeautifulSoup`, and save to JSON.
+- **Checkpoint:** Extract 10 items, store in structured file.
+
+### ✅ **Day 4: PDF Report Generator**
+- Use `pandas`, `fpdf`, or `reportlab`.
+- Build basic summary + styled tabular report.
+- **Checkpoint:** Generate 1-page PDF with mock metrics.
+
+### ✅ **Day 5: Daily Scheduler**
+- Use `schedule` or `apscheduler`.
+- Automate any of above scripts to run daily.
+- **Checkpoint:** Confirm script runs on schedule (use desktop notification).
+
+### ✅ **Day 6: Polish + Logging + Config Files**
+- Add `.env`, `config.yaml`, `logging` to each script.
+- Modularize code into functions.
+- **Checkpoint:** Refactor all scripts to use config/logging.
+
+### ✅ **Day 7: Wrap-Up & Mini Project**
+- Choose one script to enhance with GUI (e.g., `tkinter`) or CLI (`typer`).
+- Version control using Git.
+- **Checkpoint:** Push final repo to GitHub.
+
+---
+
+## 🧭 Week 2: Intermediate Automation Roadmap
+
+### 🔹 **Theme:** Real APIs, Browser Automation, and Micro SaaS Prototypes
+
+### ✅ **Day 1–2: REST API Automation**
+- Learn `requests`, `httpx`, and API auth (OAuth2/Bearer).
+- Automate GitHub API or Weather API.
+- Build simple CLI for data fetch/post.
+
+### ✅ **Day 3–4: Browser Automation (Selenium/Playwright)**
+- Automate login, form submission, scraping dynamic content.
+- Use `selenium` or `playwright`.
+- Add headless, wait strategies.
+
+### ✅ **Day 5: GUI Automation with PyAutoGUI**
+- Automate mouse + keyboard for apps like Notepad, Calculator.
+- Capture screen, click icons, enter text.
+
+### ✅ **Day 6: API Microservice**
+- Build a micro REST API using `FastAPI`.
+- Endpoint to submit form, generate PDF, or send email.
+
+### ✅ **Day 7: Capstone Project**
+- Combine multiple automations into a mini-dashboard:
+  - Scrape jobs → summarize → email → archive
+  - Or: Submit form via browser → capture screenshot → send email
